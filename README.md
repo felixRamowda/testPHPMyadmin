@@ -1,4 +1,4 @@
-# testReanara
+# testPhpMyadmin
 Este es CRUD basico con php mysql usando phpmyadmin
 -Registra
 -Muestra
