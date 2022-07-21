@@ -1,19 +1,21 @@
 <?php
 
+session_start();
 
 $conexion=mysqli_connect(
 'localhost',
  'root',
-  '',
-  'test'
+  'password',
+  
+  'Testreanara'
 
 );
+
+/*
 if(isset($conexion)){
-echo 'conexion exitosa a la base de datos testC';
+echo 'conexion exitosa a la base de datos Testreanara';
 }else{
    echo 'hubo un error al conectarse...';
 }
-
-
-
+*/
 ?>

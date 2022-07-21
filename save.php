@@ -20,7 +20,12 @@ $result = mysqli_query($conexion, $query);
 if(!$result) {
  die("Query Failed");
 }
+
+/*Almecenamos un mensaje para mostrarlo una vez los datos se hayan ingresado*/
+$_SESSION['message'] = 'Datos guardados';
+$_SESSION['message_type'] = 'success';
+
 header("location: index.php");
-}
+} 
 
 ?>
